@@ -14,9 +14,9 @@ $secondnumber = filter_input(INPUT_POST, 'secondnumber');
 
 <ul>
  <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber + $secondnumber ?> </li>
- <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber - $secondnumber ?> </li>
- <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber * $secondnumber ?> </li>
- <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber / $secondnumber ?> </li>
+ <li> <?= $firstnumber ?> - <?= $secondnumber ?> = <?= $firstnumber - $secondnumber ?> </li>
+ <li> <?= $firstnumber ?> * <?= $secondnumber ?> = <?= $firstnumber * $secondnumber ?> </li>
+ <li> <?= $firstnumber ?> / <?= $secondnumber ?> = <?= $firstnumber / $secondnumber ?> </li>
 </ul>    
 </body>
 </html>
