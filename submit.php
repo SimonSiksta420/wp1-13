@@ -10,9 +10,13 @@ $secondnumber = filter_input(INPUT_POST, 'secondnumber');
     <title>Document</title>
 </head>
 <body>
-<ul>
- <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber + $secondnumber ?>
+<h1> Výsledky </h1>
 
+<ul>
+ <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber + $secondnumber ?> </li>
+ <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber - $secondnumber ?> </li>
+ <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber * $secondnumber ?> </li>
+ <li> <?= $firstnumber ?> + <?= $secondnumber ?> = <?= $firstnumber / $secondnumber ?> </li>
 </ul>    
 </body>
 </html>
