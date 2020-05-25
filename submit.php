@@ -18,8 +18,8 @@ $secondnumber = filter_input(INPUT_POST, 'secondnumber');
  <li> <?= $firstnumber ?> * <?= $secondnumber ?> = <?= $firstnumber * $secondnumber ?> </li>
  <?php
  if ($secondnumber = 0) { ?>
-    Nulou nelze dělit  
- }
+    Nulou nelze dělit <?php
+ } ?>
  <li> <?= $firstnumber ?> / <?= $secondnumber ?> = <?= $firstnumber / $secondnumber ?> </li> 
 </ul>    
 </body>
